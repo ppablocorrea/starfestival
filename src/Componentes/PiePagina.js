@@ -3,7 +3,7 @@ import React from "react";
 export default class PiePagina extends React.Component{
     render(){
         return(
-            <footer className="text-black pt-3">
+            <footer className="text-dark pt-3 fixed-bottom">
                 <div className="container-fluid">
                     <div class="row text-center py-2">
                         <div class="col-12">

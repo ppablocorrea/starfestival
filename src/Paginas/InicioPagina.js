@@ -12,7 +12,7 @@ export default class InicioPagina extends React.Component{
                     </div>
                     <div class="row">
                         <div class="col-12 text-center">
-                            <h3>Te invitamos a vivir la magia de la música</h3>
+                            <h3>Vive una experiencia musical única en Star Festival</h3>
                         </div>
                     </div>
                     <div class="row pt-3">

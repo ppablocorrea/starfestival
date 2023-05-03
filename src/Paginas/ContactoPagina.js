@@ -17,6 +17,7 @@ export default class ContactoPagina extends React.Component{
     submitted(Event){
         alert("Se realizó la suscripción de " + this.state.nombre + " con el email: " + this.state.email);
         Event.preventDefault();
+        Event.target.reset();
     }
 
     changedName(Event){
@@ -36,12 +37,12 @@ export default class ContactoPagina extends React.Component{
             <>
                 <div class="row pt-5 text-center">
                     <div class="col-12">
-                        <h3> <b> ¡Sigamos en contacto! </b> </h3>
+                        <h3> <b> Star Crew </b> </h3>
                     </div>
                 </div>
                 <div class="row text-center pt-2">
                     <div class="col-12">
-                        <h5>Dejanos tu email para enterarte de todo</h5>
+                        <h5>¿Quieres ser el primero en enterarte de las novedades del festival? ¡Suscríbete ahora!</h5>
                     </div>
                 </div>
                 <div class="row pt-4">

@@ -43,7 +43,7 @@ export default class LanzamientosPagina extends React.Component{
             <>
                 <div className="row text-center py-5">
                     <div className="col-12 col-md-4">
-                        <h3 className="pb-4"><b>Lanzamientos Justin Bieber</b></h3>
+                        <h3 className="pb-3 text-primary border-bottom"><b>Lanzamientos Justin Bieber</b></h3>
                         {this.state.lanzamientosJustin.map((lanzamiento) => (
                             <div className="row text-center">
                                 <div className="col-12">
@@ -53,7 +53,7 @@ export default class LanzamientosPagina extends React.Component{
                         ))}
                     </div>
                     <div className="col-12 col-md-4">
-                        <h3 className="py-4 py-md-0 pb-md-4"><b>Lanzamientos Ariana Grande</b></h3>
+                        <h3 className="py-4 py-md-0 pb-md-3 text-success border-bottom"><b>Lanzamientos Ariana Grande</b></h3>
                         {this.state.lanzamientosAriana.map((lanzamiento) => (
                             <div className="row text-center">
                                 <div className="col-12">
@@ -63,7 +63,7 @@ export default class LanzamientosPagina extends React.Component{
                         ))}
                     </div>
                     <div className="col-12 col-md-4">
-                        <h3 className="py-4 py-md-0 pb-md-4"><b>Lanzamientos Bruno Mars</b></h3>
+                        <h3 className="py-4 py-md-0 pb-md-3 text-warning border-bottom"><b>Lanzamientos Bruno Mars</b></h3>
                         {this.state.lanzamientosBruno.map((lanzamiento) => (
                             <div className="row text-center">
                                 <div className="col-12">

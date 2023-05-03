@@ -28,13 +28,13 @@ export default class ShowsPagina extends React.Component{
     render(){
         return(
             <>
-                <div class="row">
+                <div class="row border border-info">
                     <div class="col-12 text-center py-5">
                         <h3> <b>¡Conocé el LineUp de artistas 2023!</b> </h3>  
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row pt-5">
                     <ListaArtisas artistas={this.artistas} />
                 </div>
             </>
